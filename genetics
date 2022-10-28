@@ -1,0 +1,72 @@
+1  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggest
+ions
+    2  echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc\ngit clone h
+ttps://github.com/zsh-users/zsh-syntax-highlighting.git
+    3  ls
+    4  ls -l
+    5  exec zsh]
+    6  exec zsh
+    7  exec bash
+    8  ls
+    9  ll
+   10  touch test
+   11  ll
+   12  vim test
+   13  cat test
+   14  vim test
+   15  aws
+   16  aws s3 ls
+   17  mwinit
+   18  mwinit -o
+   19  aws s3 ls
+   20  clear
+   21  export ISENGARD_PRODUCTION_ACCOUNT=false\nexport AWS_ACCESS_KEY_ID=ASIA3S3NFCDD6SCY7WWM\nexport AWS_SECRET_ACCESS_KEY
+=KiYNUqdMj26hEc/QoE053ivBkED1RJUuKhaM4baq\nexport AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEG8aCXVzLWVhc3QtMSJHMEUCIQCGlLL0UKBfTkxS
+NLakEYUfUhw3IsHyHBj0kTEgMkhYuwIgOn0BwqKs/XibtgAJtoY47Y+WsJfs+EF+qFBTtqh0VC4qngIISBAAGgw3OTY0MDg0ODQwMzkiDDCSz4Fm/aopAq9L2Cr7
+AQZyn7pR965H9dxz54ldr7NbcAFRTD1Y4nIHnyfFoidoUlxfbetB1Qp8Mg1zDaCdLQfjGsXkR8CI/GkOYB0TbTNJD+c3g3MNcnH6WTmNjzjwAUwjfAlcXwyFXfcM
+Xz+EsFabe6BWK+dYPK2+zYgPBOHtRZNdv0OMng0VtUVtDMLKP4i+wKYBlUO7+Q4ZT7+yxLiDEixRtAKzYtZmhEq0JheLr9xMFdtPluwMPRuizXKnL9vU7PUfh8yA
+sc9Q+SOGjNgbqFDxtnrqTwhWMlE7aecdRliAe/hnXKYjKChatyK+DVR9knIIbVMLKBlgnCn6jb9HLalPXRHTldlDMO+VwJoGOp0BZbkmdLadPAcCNmT8mhlaGFik
+WrlbIUEybMICuNtzR1xKit1ovbDdXmAcr5FLlPxw014+thExOw7NC8/Oz4dceH7oH23vsl1s3IMix0J01sb7qo8lpFIkyWdryQP4XvpCvbdcDt7+krrF2KcK1pfm
+wPGbVwoMTzwIqt2xXGNsgcITxkBeXOHrzjG/Wb90Ebcr8GkYDx1mkTLat/L+aA==\n
+   22  aws s3 ls
+   23  pwd
+   24  aws s3 --help
+   25  aws s3 -help
+   26  clear
+   27  pwd
+   28  ~ ls
+   29  ls
+   30  mkdir genetic_data
+   31  ls
+   32  cd genetic_data
+   33  aws s3 cp s3://apprentice-office-hours-sample-data/genetics/ ./genetic_data
+   34  ls
+   35  cat genetic_data
+   36  pwd
+   37  ls
+   38  type genetic_data
+   39  aws s3 sync s3://apprentice-office-hours-sample-data/genetics/ ./genetic_data
+   40  ls
+   41  ../
+   42  ls
+   43  ls genetic_data
+   44  cd genetic_data
+   45  ls
+   46  type genetic_data
+   47  aws s3 sync s3://apprentice-office-hours-sample-data/genetics/ .
+   48  ls
+   49  grep -A2 ORIGIN NC_045512.2.sequence.gb
+   50  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | gawk '{print $2}'
+   51  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | gawk '{print $2}' | head -1
+   52  GENETICS=$(grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | gawk '{print $2}' | head -1)
+   53  echo $GENETICS
+   54  grep $GENETICS NC* | wc -l
+   55  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -d " " 2-5
+   56  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -d " " -f 1-5
+   57  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -d " " 1-5
+   58  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -f " " 1-5
+   59  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -f 2-5
+   60  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -d -f 1-5
+   61  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -d 1-5
+   62  grep -A2 ORIGIN NC_045512.2.sequence.gb | grep 1 | cut -f 1-5
+   6

@@ -1,0 +1,32 @@
+# Within .yamil files comments are started with '#'
+# Data on pizza orders
+
+# A key which its value is the rest of the data we're entering
+# pizzas:
+
+# cmd + [ --> Tab right
+# cmd + ] --> Tab left
+
+pizzas: 
+# Make a hawaiian pizza
+- hawaiian: # All of my data at value for my key 'Hawaiian'
+    type: Hawaiian
+    size: 14
+    stuffedCrust: true
+    toppings: # If your value is multiple pieces of data, press enter and add - before each data
+    - Ham
+    - Pineapple
+    - Mozzerella
+
+# Make a pepperoni pizza
+- pepperoni: # All of my data at value for my key 'Pepperoni'
+    type: Pepperoni
+    size: 14
+    stuffedCrust: true
+    toppings: # If your value is multiple pieces of data, press enter and add - before each data
+    - Pepperoni
+    - Pepperoni
+    - Mozzerella
+
+
+

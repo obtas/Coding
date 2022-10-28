@@ -1,0 +1,27 @@
+ #!python3
+	 
+	 from random import randint, random, randrange
+	 
+	 
+	 def generate_points(num_points=100):
+	     # num_points: generate upto num_points, 3 dimensional points in the string.
+	     # generate upto num_points random points, store in a string and print to stdout.
+	     # there is at least one point always generated.
+	 
+	     if num_points <= 0:
+	         num_points = 100
+	 
+	     max_points = randint(1, num_points)
+	 
+	     max_distance = pow(2, 64) - 1
+	     point_str = ""
+	     for _ in range(0, max_points):
+	         x, y, z = [randrange(-max_distance, max_distance) for _ in range(3)]
+	         point_str += f"({x}, {y}, {z}), "
+	 
+	     return point_str
+	 
+	 
+	 if __name__ == '__main__':
+	     while True:
+	         print(generate_points())

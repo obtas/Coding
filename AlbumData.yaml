@@ -1,0 +1,61 @@
+Doctor in the House:
+- Artist: Rob Pajama
+    featuring: Dunk Honeybee, No Belles
+    year_released: 2019
+    rating: 7
+    runtime: 00:16:36
+    genre: Electronic music
+    number_of_songs: 6
+- Songs:
+    song_1: 
+      name: Going Magnet
+      runtime: 02:07
+    song_2: 
+      name: Automatic Faith
+      runtime: 03:07
+    song_3: 
+      name: Good Lines
+      runtime: 03:40
+    song_4: 
+      name: Little Light
+      runtime: 02:40
+    song_5: 
+      name: Still Need Rider
+      runtime: 03:05
+    song_6: 
+      name: Chill Tech
+      runtime: 01:57
+
+Commitment of Despair:
+- Artist: Figment of Ruins
+    featuring: N/A
+    year_released: 2017
+    rating: 9
+    runtime: 00:21:19
+    genre: Nu Metal
+    number_of_songs: 8
+- Songs:
+    song_1: 
+      name: Naive Move
+      runtime: 02:23
+    song_2: 
+      name: Progressive Train
+      runtime: 02:39
+    song_3: 
+      name: Ace of Teenage
+      runtime: 01:50
+    song_4: 
+      name: Little Light
+      runtime: 01:50
+    song_5: 
+      name: Dreams of Outside the Box
+      runtime: 03:36
+    song_6: 
+      name: Cave of Holidays
+      runtime: 03:05
+    song_7: 
+      name: Absolute Limit
+      runtime: 03:30
+    song_8: 
+      name: With Chances
+      runtime: O2:26
